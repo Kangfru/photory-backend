@@ -1,0 +1,13 @@
+#**/application*.yml
+.idea
+.gradle
+build/
+
+ot-backend.iml
+
+.DS_Store
+
+/.mongodb
+**/*.yml
+**/keystore
+#/docker-compose.yaml

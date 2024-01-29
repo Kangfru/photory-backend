@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:5.0
+    container_name: mongodb
+#    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - .mongodb:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=ot-mongo
+      - MONGO_INITDB_ROOT_PASSWORD=OtMongo1!
+      - MONGO_INITDB_DATABASE=ot-mongodb
