@@ -12,6 +12,9 @@
 - Spring Boot 2.7.2
 - MongoDB 3.x
 - Lombok
+- Docker를 활용, AWS EC2 배포
+- AWS SES 활용해 메일 전송 (회원 가입 등)
+- AWS Route 53, S3 Bucket, Certiface Manger 등. 
 
 ## 앱스토어
  - https://apps.apple.com/kr/app/%ED%8F%AC%ED%86%A0%EB%A6%AC-photory/id6450711745
